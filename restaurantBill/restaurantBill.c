@@ -38,9 +38,9 @@ int main()
     float tax, tip, total; 
 
     tax = price * taxPercentage / 100;
-    printf("The tax is : %f", tax);
+    printf("The tax is : $%.2f\n", tax);
     tip = price * tipPercentage / 100;
-    printf("The tip is : %f", tip);
+    printf("The tip is : $%.2f\n", tip);
     total = price + tax + tip;
-    printf("The total bill is : %f", total); 
+    printf("The total bill is : $%.2f\n", total); 
 }
